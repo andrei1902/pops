@@ -7,25 +7,35 @@
 </head>
 
 <body>
-    <h1>header</h1>
-    <div>
-        <table>
-            <tr>
-                <th>1</th>
-                <th>2</th>
-                <th>3</th>
-                <th>4</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
-            </tr>
-        </table>
-    </div>
-    <div id="petri">
-
+    <div class="container">
+        <h1>Wellcome to popsville</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <table>
+                    <tr>
+                        <th>Total Pops</th>
+                        <th>Total Beepers</th>
+                        <th>Beepers gathered</th>
+                        <th>Beepers lost</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div id="petri" class="col-md-12">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <a href="#" onclick="tick()" class="btn btn-success">Tick</a>
+            </div>
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
     <script src="javascripts/app.js"></script>
